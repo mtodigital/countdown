@@ -1,0 +1,49 @@
+*{
+  font-family:arial, helvetica;
+}
+.countdown_container{
+ /** max-width:220px;**/
+  display:inline-block;
+      background-color: #e6e6e6;
+    border-radius: 10px;
+    padding: 9px 10px 0px 10px;
+    box-shadow: 4px 4px 1px #c1c1c1;
+}
+.hidden{
+  visibility:hidden;
+}
+.timer-text-small{
+  bottom: 1ex; 
+  font-size: 50%;
+}
+#countdownTimer{
+  padding:10px;
+  background-color:#0d3f91;
+  border-radius:0px;
+  color:#ffffff;
+  font-size:20px;
+  text-align:center;
+}
+#countdownTimerP span{
+  margin:10px 0px;
+}
+#dateColour{
+  color:#000000;
+}
+#timeRemain{
+  text-align:center;
+}
+#forDelivery{
+  margin-top:3px;
+  text-transform:uppercase;
+  text-align:center;
+}
+#forDelivery span{
+  padding:10px;
+  background-color:#0d3f91;
+  border-radius:0px;
+  color:#ffffff;
+  font-size:20px;
+  text-align:center;
+  display:inline-block;
+}
